@@ -1,4 +1,12 @@
 #!/bin/bash
+#
+# This script opens mongodb compass app on MacOS
+#
+# Required:
+# - jq
+#
+# Usage:
+#   ./open_ac_mongo.sh <namespace_of_AC>
 
 ac_ns="${1:-pcloud}"
 echo $ac_ns
