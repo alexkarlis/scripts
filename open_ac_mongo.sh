@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-# This script opens mongodb compass app on MacOS
+# This script opens mongodb compass app on MacOS.
+# Point your terminal to the kubeconfig that contains your AC instance.
 #
 # Required:
 # - jq
